@@ -1,0 +1,63 @@
+﻿@page
+@model TBitesRestaurant.Pages.IndexModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+@{
+    ViewData["Title"] = "Food Menu";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to TBites Restaurant</h1>
+    <p>Explore our delicious menu below.</p>
+</div>
+
+@if (SignInManager.IsSignedIn(User))
+{
+    @if (Model.IsAdmin)
+    {
+        <p class="text-end">
+            <a asp-page="Create" class="btn btn-primary">Create New</a>
+        </p>
+    }
+
+    <div class="text-center">
+        <h2 class="display-4">Our Menu Items</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.FoodItem)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Item_Name</td>
+                        <td>@item.Item_Desc</td>
+                        <td>@item.Price</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ✅ FIXED SEARCH FEATURE -->
+    <h2>Search</h2>
+    <form method="post">
+        <div>
+            Search <input asp-for="Search" class="form-control" />
+        </div>
+        <button type="submit" asp-page-handler="Search" class="btn btn-primary mt-2">Submit</button>
+    </form>
+}
+else
+{
+    <div class="text-center">
+        <h3>Please <a asp-page="/Account/Login">log in</a> to view the menu.</h3>
+    </div>
+}
