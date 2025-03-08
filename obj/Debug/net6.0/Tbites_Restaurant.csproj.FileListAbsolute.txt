@@ -613,10 +613,10 @@ C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\o
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Tbites_Restaurant.props
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Tbites_Restaurant.props
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\Tbites_R.D4819775.Up2Date
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\Tbites_Restaurant.dll
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\refint\Tbites_Restaurant.dll
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\Tbites_Restaurant.pdb
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\Tbites_Restaurant.genruntimeconfig.cache
 C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\ref\Tbites_Restaurant.dll
+C:\Users\RONKE\Downloads\drive-download-20250308T121409Z-001\Tbites_Restaurant\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt

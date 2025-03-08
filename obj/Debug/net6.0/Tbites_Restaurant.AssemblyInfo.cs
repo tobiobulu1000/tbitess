@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tbites_Restaurant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db8fac64218d2b93505eaedf4f57622a4476aa7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4bb405a00cf0a7d483842fef3fdca8e84df2463")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tbites_Restaurant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tbites_Restaurant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
